@@ -1,44 +1,94 @@
-.section-features .text-three {
-   color: #2e2f42;
-   line-height: 1.2;
-}
-
-.text-three {
-   font-size: 20px;
-   font-weight: 500;
-   margin: 8px 0;
-}
-
-.text-two {
-   font-size: 36px;
-   text-align: center;
-   color: #2E2F42;
+.section-features {
+   padding: 96px 0;
 }
 
 .section-features .features-content {
    display: flex;
-   gap: 24px;
-}
-
-.section-features {
-   padding: 120px 0px;
+   flex-wrap: wrap;
+   gap: 72px;
 }
 
 .section-features .card-features {
-   flex-basis: 264px;
-}
-
-.section-features .card-features:first-child {
-   margin-left: 0;
+   width: 100%;
 }
 
 .features-ico {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   background-color: #F4F4FD;
-   width: 264px;
-   border: 1px solid #8E8F99;
-   border-radius: 4px;
-   height: 112px;
+   display: none;
+}
+
+.section-features .text-three {
+   color: #2E2F42;
+
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+
+   text-align: center;
+
+   margin-bottom: 8px;
+}
+
+.section-features p {
+   font-weight: 500;
+   color: #434455;
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+
+   .section-features .features-content {
+      gap: 72px 24px;
+   }
+
+   .section-features .card-features {
+      width: calc((100% - 24px) / 2);
+   }
+
+   .section-features .text-three {
+      text-align: left;
+   }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1158px) {
+
+   .section-features {
+      padding: 120px 0;
+   }
+
+   .section-features .features-content {
+      flex-wrap: nowrap;
+      gap: 24px;
+   }
+
+   .section-features .card-features {
+      width: calc((100% - 72px) / 4);
+   }
+
+   .features-ico {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      height: 112px;
+      margin-bottom: 8px;
+
+      background-color: #F4F4FD;
+
+      border: 1px solid #8E8F99;
+      border-radius: 4px;
+   }
+
+   .section-features .text-three {
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.2;
+   }
+
+   .section-features p {
+      font-weight: 400;
+   }
 }
