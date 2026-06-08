@@ -73,3 +73,83 @@
          url("../images/hero/desktop-bg@2x.jpg");
    }
 }
+
+.header-container {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.nav-list {
+   display: none;
+}
+
+.address {
+   display: none;
+}
+
+.menu-btn {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   border: none;
+   background: transparent;
+   padding: 0;
+   cursor: pointer;
+}
+
+.logo {
+   padding: 16px 0;
+}
+
+@media screen and (min-width: 768px) {
+
+   .menu-btn {
+      display: none;
+   }
+
+   .nav-list {
+      display: flex;
+      gap: 40px;
+   }
+
+   .address {
+      display: block;
+      margin-left: auto;
+   }
+
+   .address-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+   }
+
+   .adress-links {
+      padding: 0;
+
+      font-size: 12px;
+      line-height: 1.17;
+      letter-spacing: 0.04em;
+   }
+
+   .logo {
+      padding: 24px 0;
+   }
+}
+
+@media screen and (min-width: 1158px) {
+
+   .address-list {
+      flex-direction: row;
+      gap: 40px;
+   }
+
+   .adress-links {
+      padding: 24px 0;
+
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+   }
+}

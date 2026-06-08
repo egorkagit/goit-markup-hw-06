@@ -44,10 +44,12 @@
    display: flex;
 }
 
-.header ul {
-   display: flex;
-   align-items: center;
-   gap: 40px;
+.nav-list {
+   display: none;
+}
+
+.address-list {
+   display: none;
 }
 
 .address {
