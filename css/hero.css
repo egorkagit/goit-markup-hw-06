@@ -3,8 +3,6 @@
 
    padding: 72px 0;
 
-   max-width: 320px;
-   margin: 0 auto;
 
    background-image:
       linear-gradient(rgba(46, 47, 66, 0.7),
@@ -77,7 +75,6 @@
 
 @media screen and (min-width: 768px) {
    .section-hero {
-      max-width: 768px;
       padding: 112px 0;
 
       background-image:
@@ -114,6 +111,7 @@
 @media screen and (min-width: 1158px) {
    .section-hero {
       max-width: 1440px;
+      margin: 0 auto;
       padding: 188px 0;
 
       background-image:
