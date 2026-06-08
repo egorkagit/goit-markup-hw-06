@@ -1,14 +1,15 @@
 .section-hero {
    background-color: #2E2F42;
-   line-height: 1.07;
-   padding: 188px 0;
 
-   max-width: 1440px;
+   padding: 72px 0;
+
+   max-width: 320px;
    margin: 0 auto;
 
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+   background-image:
+      linear-gradient(rgba(46, 47, 66, 0.7),
          rgba(46, 47, 66, 0.7)),
-      url("../images/people-office1.jpg");
+      url("../images/hero/mobile-bg.jpg");
 
    background-repeat: no-repeat;
    background-position: center;
@@ -21,20 +22,39 @@
    align-items: center;
 }
 
+.main-text-hero {
+   max-width: 216px;
+
+   font-size: 36px;
+   font-weight: 700;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+
+   color: #FFFFFF;
+   text-align: center;
+}
+
 .btn-hero {
-   background-color: #4D5AE5;
-   color: white;
-   font-family: "Roboto", Helvetica, sans-serif;
-   font-weight: 500;
-   letter-spacing: 0.04em;
-   cursor: pointer;
-   line-height: 1.5;
-   padding: 16px 32px;
-   margin-top: 48px;
+   min-width: 169px;
+   height: 56px;
+
+   margin-top: 72px;
+
    border: none;
    border-radius: 4px;
-   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-   transition: background-color 250ms ease;
+
+   background-color: #4D5AE5;
+   color: #FFFFFF;
+
+   font-family: inherit;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 1.5;
+   letter-spacing: 0.04em;
+
+   cursor: pointer;
+
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-hero:hover,
@@ -42,10 +62,78 @@
    background-color: #404BBF;
 }
 
-.main-text-hero {
-   font-size: 56px;
-   color: white;
-   letter-spacing: 0.02em;
-   text-align: center;
-   width: 496px;
+/* Mobile Retina */
+
+@media (min-resolution: 192dpi) {
+   .section-hero {
+      background-image:
+         linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+         url("../images/hero/mobile-bg@2x.jpg");
+   }
+}
+
+/* Tablet */
+
+@media screen and (min-width: 768px) {
+   .section-hero {
+      max-width: 768px;
+      padding: 112px 0;
+
+      background-image:
+         linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+         url("../images/hero/tablet-bg.jpg");
+   }
+
+   .main-text-hero {
+      max-width: 496px;
+
+      font-size: 56px;
+      line-height: 1.07;
+   }
+
+   .btn-hero {
+      margin-top: 36px;
+   }
+}
+
+/* Tablet Retina */
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+   .section-hero {
+      background-image:
+         linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+         url("../images/hero/tablet-bg@2x.jpg");
+   }
+}
+
+/* Desktop */
+
+@media screen and (min-width: 1158px) {
+   .section-hero {
+      max-width: 1440px;
+      padding: 188px 0;
+
+      background-image:
+         linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+         url("../images/hero/desktop-bg.jpg");
+   }
+
+   .btn-hero {
+      margin-top: 48px;
+   }
+}
+
+/* Desktop Retina */
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+   .section-hero {
+      background-image:
+         linear-gradient(rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+         url("../images/hero/desktop-bg@2x.jpg");
+   }
 }
