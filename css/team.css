@@ -1,0 +1,87 @@
+.section-team {
+   background-color: #F4F4FD;
+   padding: 120px 0;
+}
+
+.section-team .team-card {
+   background-color: white;
+   width: 264px;
+   border: 1px solid #E7E9FC;
+   border-radius: 0 0 4px 4px;
+}
+
+.section-team ul li p,
+.section-team ul li h3 {
+   text-align: center;
+}
+
+.section-team ul li h3 {
+   line-height: 1.2;
+   letter-spacing: 0.02em;
+   color: #2e2f42;
+   ;
+}
+
+.section-team .text-two {
+   letter-spacing: 0.02em;
+   line-height: 1.11;
+   text-align: center;
+   color: #2e2f42;
+   font-size: 36px;
+}
+
+.section-team .text-three {
+   font-size: 20px;
+   font-weight: 500;
+}
+
+.section-team .team-main {
+   display: flex;
+   justify-content: center;
+   margin-top: 72px;
+   gap: 24px;
+}
+
+
+.section-team p {
+   margin: 8px 0;
+}
+
+.section-team img {
+   display: block;
+}
+
+.card-content {
+   padding: 32px 16px;
+}
+
+.team-link {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 24px;
+}
+
+.link-feuter a {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: #4D5AE5;
+   transition: background-color 250ms ease;
+}
+
+.team-card {
+   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.link-feuter a:hover,
+.link-feuter a:focus {
+   background-color: #404bbf;
+}
+
+.icon {
+   fill: #f4f4fd;
+}

@@ -1,0 +1,44 @@
+.section-features .text-three {
+   color: #2e2f42;
+   line-height: 1.2;
+}
+
+.text-three {
+   font-size: 20px;
+   font-weight: 500;
+   margin: 8px 0;
+}
+
+.text-two {
+   font-size: 36px;
+   text-align: center;
+   color: #2E2F42;
+}
+
+.section-features .features-content {
+   display: flex;
+   gap: 24px;
+}
+
+.section-features {
+   padding: 120px 0px;
+}
+
+.section-features .card-features {
+   flex-basis: 264px;
+}
+
+.section-features .card-features:first-child {
+   margin-left: 0;
+}
+
+.features-ico {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: #F4F4FD;
+   width: 264px;
+   border: 1px solid #8E8F99;
+   border-radius: 4px;
+   height: 112px;
+}

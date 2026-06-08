@@ -1,0 +1,104 @@
+.footer {
+   background-color: #2E2F42;
+   color: #F4F4FD;
+   padding: 100px 0;
+}
+
+.footer .logo {
+   color: white;
+   margin: 0px;
+}
+
+.footer .footer-content {
+   margin-top: 16px;
+   width: 264px;
+}
+
+.footer .container {
+   display: flex;
+   align-items: baseline;
+}
+
+.social-footer {
+   margin-left: 120px;
+}
+
+.social-footer img {
+   width: 24px;
+}
+
+.social-footer .team-link {
+   margin-top: 16px;
+}
+
+.social-main-text {
+   font-weight: 500;
+   color: #fff;
+}
+
+.social-footer .team-link {
+   gap: 16px;
+}
+
+.social-footer .team-link a:hover,
+.social-footer .team-link a:focus {
+   background-color: #31d0aa;
+}
+
+
+.footer-form {
+   display: flex;
+   gap: 24px;
+   margin-top: 16px;
+}
+
+.footer-input {
+   width: 264px;
+   height: 40px;
+   padding-left: 16px;
+   border: 1px solid #ffffff;
+   border-radius: 4px;
+   background-color: transparent;
+   color: #ffffff;
+   font-size: 12px;
+   line-height: 2;
+   letter-spacing: 0.04em;
+   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-input::placeholder {
+   color: #ffffff;
+}
+
+.footer-input:focus {
+   border-color: #31d0aa;
+   ;
+   outline: none;
+}
+
+.footer-btn {
+   min-width: 165px;
+   height: 40px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 16px;
+   border: none;
+   border-radius: 4px;
+   background-color: #4d5ae5;
+   color: #ffffff;
+   cursor: pointer;
+   font-weight: 500;
+   letter-spacing: 0.04em;
+   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.footer-btn:hover,
+.footer-btn:focus {
+   background-color: #31d0aa;
+}
+
+.subscribe-footer {
+   margin-left: auto;
+}
