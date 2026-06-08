@@ -12,7 +12,9 @@
 }
 
 .logo-footer {
-   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
 }
 
 .footer .logo {
@@ -21,6 +23,7 @@
 
 .footer-content {
    margin-top: 16px;
+   text-align: left;
 }
 
 .social-footer {
@@ -121,7 +124,7 @@
    }
 
    .logo-footer {
-      text-align: left;
+      align-items: flex-start;
       width: 264px;
    }
 
@@ -162,7 +165,7 @@
    }
 
    .logo-footer {
-      margin-right: 120px;
+      align-items: flex-start;
    }
 
    .social-footer {
