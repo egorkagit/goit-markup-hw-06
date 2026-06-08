@@ -1,25 +1,26 @@
 .section-portfolio {
-   padding: 120px 0;
+   padding: 96px 0;
 }
 
 .section-portfolio .text-two {
-   font-weight: 700;
-   letter-spacing: 0.02em;
-   line-height: 1.11;
-   text-align: center;
    font-size: 36px;
+   line-height: 1.11;
+   letter-spacing: 0.02em;
+   text-align: center;
    color: #2e2f42;
 }
 
 .card-list {
    margin-top: 72px;
+
    display: flex;
    flex-wrap: wrap;
-   gap: 48px 24px;
+
+   gap: 48px;
 }
 
 .card-item {
-   width: calc((100% - 48px) / 3);
+   width: 100%;
 }
 
 .card-wrapper {
@@ -28,7 +29,8 @@
 }
 
 .card-wrapper:hover {
-   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+   box-shadow:
+      0 2px 1px 0 rgba(46, 47, 66, 0.08),
       0 1px 1px 0 rgba(46, 47, 66, 0.16),
       0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -39,8 +41,8 @@
 }
 
 .image-wrapper img {
-   width: 100%;
    display: block;
+   width: 100%;
 }
 
 .overlay {
@@ -51,13 +53,12 @@
    width: 100%;
    height: 100%;
 
-   background-color: #4d5ae5;
-
-   color: #f4f4fd;
-   font-size: 16px;
-   line-height: 1.5;
-
    padding: 40px 32px;
+
+   background-color: #4d5ae5;
+   color: #f4f4fd;
+
+   line-height: 1.5;
 
    transform: translateY(100%);
    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -68,9 +69,9 @@
 }
 
 .card-section {
+   padding: 32px 16px;
    border: 1px solid #e7e9fc;
    border-top: none;
-   padding: 32px 16px;
 }
 
 .card-section p {
@@ -78,12 +79,36 @@
 }
 
 .section-portfolio .text-three {
-   color: #2e2f42;
-   line-height: 1.2;
    font-size: 20px;
    font-weight: 500;
+   line-height: 1.2;
+   color: #2e2f42;
 }
 
-.section-portfolio p {
-   letter-spacing: 0.02em;
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+   .card-list {
+      gap: 72px 24px;
+   }
+
+   .card-item {
+      width: calc((100% - 24px) / 2);
+   }
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 1158px) {
+   .section-portfolio {
+      padding: 120px 0;
+   }
+
+   .card-list {
+      gap: 48px 24px;
+   }
+
+   .card-item {
+      width: calc((100% - 48px) / 3);
+   }
 }
