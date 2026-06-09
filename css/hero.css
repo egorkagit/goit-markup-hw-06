@@ -7,7 +7,7 @@
    background-image:
       linear-gradient(rgba(46, 47, 66, 0.7),
          rgba(46, 47, 66, 0.7)),
-      url("../images/hero/mobile-bg.jpg");
+      url("../images/desktop-bg.jpg");
 
    background-repeat: no-repeat;
    background-position: center;
@@ -67,7 +67,7 @@
       background-image:
          linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-         url("../images/hero/mobile-bg@2x.jpg");
+         url("../images/desktop-bg.jpg");
    }
 }
 
@@ -80,7 +80,7 @@
       background-image:
          linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-         url("../images/hero/tablet-bg.jpg");
+         url("../images/desktop-bg.jpg");
    }
 
    .main-text-hero {
@@ -102,7 +102,7 @@
       background-image:
          linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-         url("../images/hero/tablet-bg@2x.jpg");
+         url("../images/people-office1.jpg");
    }
 }
 
@@ -117,7 +117,7 @@
       background-image:
          linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-         url("../images/hero/desktop-bg.jpg");
+         url("../images/people-office1.jpg");
    }
 
    .btn-hero {
@@ -132,6 +132,6 @@
       background-image:
          linear-gradient(rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-         url("../images/hero/desktop-bg@2x.jpg");
+         url("../images/people-office1.jpg");
    }
 }
