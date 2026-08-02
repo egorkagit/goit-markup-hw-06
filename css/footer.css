@@ -15,6 +15,7 @@
    display: flex;
    flex-direction: column;
    align-items: center;
+   color: #f4f4fd;
 }
 
 .footer .logo {
@@ -62,8 +63,8 @@
 }
 
 .footer-input {
-   width: 100%;
-   max-width: 288px;
+   width: 288px;
+   max-width: 100%;
    height: 40px;
 
    padding-left: 16px;
@@ -130,6 +131,11 @@
 
    .social-footer {
       text-align: left;
+      justify-content: flex-start;
+   }
+
+   .team-link {
+      justify-content: flex-start;
    }
 
    .subscribe-footer {
@@ -160,6 +166,7 @@
       max-width: 1158px;
       flex-wrap: nowrap;
       align-items: baseline;
+      gap: 0;
    }
 
    .logo-footer {
